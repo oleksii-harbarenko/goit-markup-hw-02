@@ -86,7 +86,8 @@ a {
   background-color: #4d5ae5;
   cursor: pointer;
 }
-.order-button:hover {
+.order-button:hover,
+.order-button:focus {
   background-color: #404bbf;
 }
 .advantage-section {
@@ -119,7 +120,7 @@ a {
 }
 .team-title {
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
@@ -148,10 +149,11 @@ a {
 }
 .portfolio-title {
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 .portfolio-list {
 }
